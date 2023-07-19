@@ -1,0 +1,28 @@
+.principal {
+display: flex;
+flex-direction: row;
+}
+
+img {
+    display: flex;
+    align-self: flex-start;
+    width: 120px;
+    padding: 1rem;
+}
+
+.encriptador {
+    display: flex;
+    flex-direction: column ;
+    padding-top: 2rem;
+}
+
+.respuesta {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    text-align: center;
+    box-shadow: 0 24px 32px -8px #00000079;
+    border: none;
+    border-radius: 32px;
+    height: 100vw;
+}
