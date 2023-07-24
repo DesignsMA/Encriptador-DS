@@ -5,6 +5,7 @@ const input = "Habia Una Vez Una Persona con muchos huevuis"
 let resultado = input.toLowerCase();
 console.log(resultado);
 
+//Funciones
 const encriptar = (evento) => {
     evento.preventDefault();
     resultado = resultado.replace(/u/g, "str");
