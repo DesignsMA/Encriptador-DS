@@ -22,6 +22,7 @@ La letra "u" es convertida para "ufat"
 <ul>
     <li><a href="img/logo.svg">Logo1</a></li>
       <li><a href="img/logo_dark.svg">Logo2</a></li>
+      <li><a href="img/bg1">Fondo</a></li>
 </ul>
 
  
