@@ -1,0 +1,10 @@
+.consola__advertencia {
+    display: block;
+    width: 100%;
+    font-family: var(--font-inter);
+    font-weight: 300;
+    font-size: 0.85rem;
+    color: #d87d7d;
+    margin-bottom: 1.5rem;
+
+}
