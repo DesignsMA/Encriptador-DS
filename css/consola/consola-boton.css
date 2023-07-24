@@ -20,6 +20,10 @@
     box-shadow: 0 0px 16px 0 rgba(243, 60, 60, 0.533), 0 6px 20px 0 rgba(255, 55, 55, 0.089), inset 0 0 15px #ff934b20;
 }
 
+.consola__boton:nth-child(2):active {
+    transition: all 0.2s ease-in-out;
+    transform: scale(0.97);
+}
 
 .consola__boton:nth-child(3) {
     padding: 1rem;
@@ -41,4 +45,10 @@
     box-shadow: 0 0px 16px 0 rgba(243, 60, 60, 0.533), 0 6px 20px 0 rgba(255, 55, 55, 0.089), inset 0 0 15px #ff934b20;
 
 }
+
+.consola__boton:nth-child(3):active {
+    transition: all 0.2s ease-in-out;
+    transform: scale(0.97);
+}
+
 
