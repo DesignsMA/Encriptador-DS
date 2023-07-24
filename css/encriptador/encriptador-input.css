@@ -1,0 +1,15 @@
+.encriptador__input {
+    display: flex;
+    height: 70vh;
+    background: none;  
+    border: none; 
+    color: var(--main-color);
+    font-family: var(--font-inter);
+    font-size: 5.16vh;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+}
+
+.encriptador__input:focus {
+    text-shadow: 0 0 14px #d43a3a92;
+}

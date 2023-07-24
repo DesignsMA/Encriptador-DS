@@ -1,0 +1,6 @@
+.respuesta__imagen {
+    display: flex;
+    align-self: center;
+    max-width: 70%;
+    margin-bottom: 2rem;
+}

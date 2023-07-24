@@ -1,0 +1,14 @@
+.respuesta {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 1rem;
+    max-width: 20vw;
+    height: calc(100vh - 6rem);
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    box-shadow: 0 24px 32px -8px #00000079;
+    border: none;
+    border-radius: 32px;
+ 
+}

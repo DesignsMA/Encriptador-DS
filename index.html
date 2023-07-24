@@ -5,42 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador - DS</title>
+    <link rel="icon" href="img/logo.svg">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">     <link rel="stylesheet" href="">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/principal/principal.css">
+    <link rel="stylesheet" href="css/principal/principal-logo.css">
+    <link rel="stylesheet" href="css/encriptador/encriptador.css">
+    <link rel="stylesheet" href="css/encriptador/encriptador-input.css">
+    <link rel="stylesheet" href="css/encriptador/encriptador-advertencia.css">
+    <link rel="stylesheet" href="css/consola/consola.css">
+    <link rel="stylesheet" href="css/consola/consola-boton.css">
+    <link rel="stylesheet" href="css/respuesta/respuesta.css">
+    <link rel="stylesheet" href="css/respuesta/respuesta-titulo.css">
+    <link rel="stylesheet" href="css/respuesta/respuesta-parrafo.css">
+    <link rel="stylesheet" href="css/respuesta/respuesta-imagen.css">
     <link rel="stylesheet" href="">
-
 </head>
 
-<body>
+<body class="bg">
 
     <main class="principal">
 
-        <img class="principal__logo" src="img/logo_dark.svg" alt="logo">
+        <img class="principal__logo" src="img/logo.svg" alt="logo">
         
-        <section class="encriptador">
+        <div class="encriptador">
+            <form action="">
+                <textarea autocomplete="off" class="encriptador__input" autofocus placeholder="Ingresa el texto aqui" autocapitalize="none" spellcheck="false"></textarea>
+            </form>
 
-            <input type="search" class="encriptador__input">
-            <p class="encriptador__advertencia">! lis imperdiet proin fermentum leo ve</p>
-            
-            <section class="consola">
-                <button class="consola__boton">Encriptar</button>
-                <button class="consola__boton">Desencriptar</button>
-            </section>
+            <form class="consola">
+                <p class="consola__advertencia"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> lis imperdiet proin fermentum leo ve</p>
+                <button class="consola__boton" type="submit" data-form-btn-do>Encriptar</button>
+                <button class="consola__boton" type="submit" data-form-btn-redo>Desencriptar</button>
+            </form>
 
-        </section>
+        </div>
 
-
-        <section class="respuesta">
-            <img class="respuesta_imagen" src="" alt="">
-            <h1 class="respuesta_titulo">Titulo caja</h1>
-            <p class="respuesta_parrafo">felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur</p>
-        </section>
+        <div class="respuesta">
+            <img class="respuesta__imagen" src="./img/Recurso 1.svg" alt="vacio">
+            <h1 class="respuesta__titulo">Titulo caja</h1>
+            <p class="respuesta__parrafo">felis imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur</p>
+        </div>
     
     </main>
+
+    <!---Encriptador-->
+    <script src="script.js"></script>
 
 
 
     
 </body>
 
-</html>ds
+</html>

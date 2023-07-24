@@ -1,0 +1,8 @@
+.encriptador {
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between ;
+    width: auto;
+    max-height: calc(100vh - 2rem);
+    margin-top: 2rem;
+}

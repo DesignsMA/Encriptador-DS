@@ -1,28 +1,19 @@
-.principal {
-display: flex;
-flex-direction: row;
+:root {
+    --main-color: #e63636;
+    --font-inter: 'Inter', sans-serif;
 }
 
-img {
-    display: flex;
-    align-self: flex-start;
-    width: 120px;
-    padding: 1rem;
+.bg {
+    position: relative;
+    background:
+    radial-gradient(#00000000, rgba(0, 0, 0, 0.709)),
+    linear-gradient(70deg, #ff797976 40%, #ffffff), 
+    url("../img/bg1.png");
+    background-size: cover;
 }
 
-.encriptador {
-    display: flex;
-    flex-direction: column ;
-    padding-top: 2rem;
-}
 
-.respuesta {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-    text-align: center;
-    box-shadow: 0 24px 32px -8px #00000079;
-    border: none;
-    border-radius: 32px;
-    height: 100vw;
-}
+
+
+
+
