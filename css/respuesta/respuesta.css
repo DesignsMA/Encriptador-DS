@@ -1,9 +1,9 @@
 .respuesta {
     display: flex;
     flex-direction: column;
-    margin: 2rem;
+    margin: 2rem 2rem 2rem 6rem;
     padding: 1rem;
-    max-width: 20vw;
+    width: 28vw;
     height: calc(100vh - 6rem);
     background-color: hsl(0, 0%, 100%);
     text-align: center;
