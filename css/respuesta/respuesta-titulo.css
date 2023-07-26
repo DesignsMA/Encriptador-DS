@@ -1,0 +1,7 @@
+.respuesta__titulo {
+    font-family: var(--font-inter);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #403434;
+}

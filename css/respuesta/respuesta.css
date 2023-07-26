@@ -1,6 +1,7 @@
 .respuesta {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 2rem 2rem 2rem 6rem;
     padding: 1rem;
     width: 28vw;
@@ -12,3 +13,5 @@
     border-radius: 32px;
  
 }
+
+

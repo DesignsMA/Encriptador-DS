@@ -1,7 +1,4 @@
 .respuesta__imagen {
-    display: flex;
-    align-self: center;
     max-width: 70%;
-    margin-top: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
