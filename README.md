@@ -1,6 +1,6 @@
 # Encriptador-DS
-<img src="https://imgur.com/vKfRhDn.png" width="100px">
 Encriptador de texto simple.
+<img src="https://imgur.com/vKfRhDn.png" width="100px"> <img src="img/qr-code.svg" width="100px">
 Encripta líneas de texto de caractéres simples en otras con las siguientes llaves:
 
 ---
