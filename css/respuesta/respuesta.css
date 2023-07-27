@@ -15,4 +15,16 @@
  
 }
 
+@media screen and (max-width: 768px) { 
+    .respuesta {
+    align-self: center;
+    margin: 0;
+    margin-bottom: 1rem;
+    height: auto;
+    width: 100%;
+    max-width: calc(100% - 3rem);
+    }
+}
+
+
 

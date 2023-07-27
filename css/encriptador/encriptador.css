@@ -6,3 +6,13 @@
     height: calc(100vh - 7rem);
     margin-top: 7rem;
 }
+
+@media screen and (max-width: 768px) { 
+    .encriptador {
+        padding: 1rem;
+        margin-top: 1rem;
+        width: calc(100vw - 2rem);
+        height: 100%;
+    }
+}
+

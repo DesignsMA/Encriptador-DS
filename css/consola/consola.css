@@ -1,7 +1,15 @@
 .consola {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     width: 100%;
     margin-bottom: 4rem;
+}
+
+
+@media screen and (max-width: 768px) { 
+    .consola {
+        margin-bottom: 1rem;
+    }
 }

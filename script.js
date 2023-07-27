@@ -37,12 +37,12 @@ const encriptar = (evento) => {
     } else {
         parrafo.innerHTML =  resultado;
         vacio.style.display = "none";
-        parrafo.style.height = '70%'
+        parrafo.style.height = '80%'
         btnCopiar.style.display = "initial";
         console.log(resultado);    
     }
 
-}
+};
 
 const desencriptar = (evento) => {
     evento.preventDefault();
@@ -55,10 +55,11 @@ const desencriptar = (evento) => {
         texto = texto.replace(/ufat/gi, "u");
 
         return texto;
-    }
+    };
 
     resultado = desEncriptarTexto(input.value);
 
+    
     if (resultado == '') {
         vacio.style.display = "initial";
         btnCopiar.style.display = "none";
@@ -66,7 +67,7 @@ const desencriptar = (evento) => {
         parrafo.innerHTML =  "Ingresa el texto que desees encriptar o desencriptar.";
     } else {
         parrafo.innerHTML =  resultado;
-        parrafo.style.height = '70%'
+        parrafo.style.height = '80%'
         vacio.style.display = "none";
         btnCopiar.style.display = "initial";
         console.log(resultado);    

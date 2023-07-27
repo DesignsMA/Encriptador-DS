@@ -2,3 +2,12 @@
     width: 100%;
     margin-bottom: 4rem;
 }
+
+@media screen and (max-width: 768px) { 
+
+    .respuesta__imagen {
+        display: none;
+    }
+}
+
+

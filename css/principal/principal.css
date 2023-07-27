@@ -5,3 +5,9 @@
     height: 100vh;
     }
     
+
+    @media screen and (max-width: 768px) { 
+        .principal {
+            flex-direction: column;
+        }
+    }
