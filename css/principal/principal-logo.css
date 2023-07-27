@@ -1,8 +1,15 @@
 .principal__logo {
     display: flex;
     align-self: flex-start;
-    height: 48px;
+    height: 10vh;
     margin: 2rem 8rem 2rem 5rem; 
     filter: drop-shadow(0 0 20px #00000069);
 }
+
+@media screen and (max-width: 768px) { 
+    .principal__logo {
+        margin: 2rem;
+    }
+}
+
 
