@@ -5,6 +5,7 @@
     margin: 2rem 2rem 2rem 6rem;
     padding: 1rem;
     width: 28vw;
+    max-width: 15vw;
     height: calc(100vh - 6rem);
     background-color: hsl(0, 0%, 100%);
     text-align: center;

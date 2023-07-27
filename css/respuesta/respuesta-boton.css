@@ -1,0 +1,25 @@
+.respuesta__boton {
+    display: none;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-family: var(--font-inter);
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    color:  var(--main-color);
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid var(--main-color);
+    transition: all 0.4s ease-in-out;
+    
+}
+
+.respuesta__boton:hover {
+    box-shadow: 0 0px 16px 0 rgba(243, 60, 60, 0.533), 0 6px 20px 0 rgba(255, 55, 55, 0.089), inset 0 0 15px #ff934b20;
+}
+
+.respuesta__boton:active {
+    transition: all 0.2s ease-in-out;
+    transform: scale(0.97);
+}

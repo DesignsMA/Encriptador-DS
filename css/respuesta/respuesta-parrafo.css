@@ -1,7 +1,12 @@
 .respuesta__parrafo {
+    word-wrap: break-word;
+    height: auto;
+    text-align: center;
     font-family: var(--font-inter);
     font-size: 1rem;
     font-weight: 300;
     color: #574949;
+    resize: none;
+    border: none;
     
 }
