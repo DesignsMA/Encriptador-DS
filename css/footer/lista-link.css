@@ -1,0 +1,14 @@
+.lista__link {
+    font-family: var(--font-inter);
+    font-weight: 200;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #f16767a3;
+    text-shadow: 0 0 0 8px #ffffff;
+}
+
+@media screen and (max-width: 375px) {
+    .lista__link {
+        font-size: 0.5rem;
+    }
+}
