@@ -1,6 +1,6 @@
 .respuesta__parrafo {
     word-wrap: break-word;
-    height: 4rem;
+    height: 5rem;
     text-align: center;
     font-family: var(--font-inter);
     font-size: 1rem;
@@ -8,5 +8,12 @@
     color: #574949;
     resize: none;
     border: none;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .respuesta__parrafo {
+        height: 4rem;
+    }
     
 }

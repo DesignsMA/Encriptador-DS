@@ -3,7 +3,6 @@ const btnDesencriptar = document.querySelector('[data-form-btn-redo]');
 const btnCopiar = document.querySelector('[data-form-btn-copy]')
 const parrafo = document.querySelector('[data-form-text]');
 const input = document.querySelector('[data-form-input]');
-
 let vacio = document.getElementById('respuesta--vacio');
 let resultado = '';
 console.log(resultado);
