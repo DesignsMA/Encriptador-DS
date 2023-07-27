@@ -7,7 +7,7 @@
     border: none; 
     color: var(--main-color);
     font-family: var(--font-inter);
-    font-size: 3.1475vh;
+    font-size: 2rem;
     font-weight: 400;
     transition: all 0.5s ease-in-out;
 }

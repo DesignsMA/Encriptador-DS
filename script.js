@@ -1,7 +1,7 @@
 const btnEncriptar = document.querySelector('[data-form-btn-do]');
 const btnDesencriptar = document.querySelector('[data-form-btn-redo]');
 const btnCopiar = document.querySelector('[data-form-btn-copy]')
-const parrafo = document.querySelector('[data-text]');
+const parrafo = document.querySelector('[data-form-text]');
 const input = document.querySelector('[data-form-input]');
 
 let vacio = document.getElementById('respuesta--vacio');
@@ -74,18 +74,17 @@ const desencriptar = (evento) => {
     }
 }
 
-function copyToClipboard() {
-    var textoACopiar = parrafo.innerText;
+function copiar() {
+    let textoACopiar = parrafo.innerHTML;
   
-    navigator.clipboard.writeText(textoACopiar)
-      .then(function() {
+    navigator.clipboard.writeText(textoACopiar).then(function() {
         console.log('Texto copiado!.');
         let sombraOriginal = btnCopiar.style.boxShadow;
         let textoOriginal = btnCopiar.innerText;
         let bordeOriginal = btnCopiar.style.border;
         let colorTxtOriginal = btnCopiar.style.color;
         btnCopiar.style.boxShadow = '0 0px 16px 0 rgba(38, 255, 26, 0.533), 0 6px 20px 0 rgba(75, 255, 55, 0.089), inset 0 0 15px #4bff5d20';
-        btnCopiar.innerHTML = 'Copiado!';
+        btnCopiar.innerText = 'Copiado!';
         btnCopiar.style.border = '1px solid #00AC56';
         btnCopiar.style.color = '#00AC56'
         
@@ -96,8 +95,7 @@ function copyToClipboard() {
             btnCopiar.style.color = colorTxtOriginal;
           }, 2000); // 2000 millisegundos (2 seconds)
 
-      })
-      .catch(function(err) {
+      }).catch(function(err) {
         console.error('No se pudo copiar el texto.', err);
       });
   }
@@ -108,4 +106,4 @@ function copyToClipboard() {
 
 btnEncriptar.addEventListener('click', encriptar)
 btnDesencriptar.addEventListener('click', desencriptar)
-btnCopiar.addEventListener('click', copyToClipboard)
+btnCopiar.addEventListener('click', copiar)

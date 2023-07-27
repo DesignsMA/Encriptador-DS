@@ -10,4 +10,11 @@
     }
 }
 
+@media screen and (max-height: 600px) {
+    .respuesta__imagen {
+        display: none;
+    }
+ }
+
+
 

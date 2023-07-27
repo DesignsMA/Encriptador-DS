@@ -1,7 +1,7 @@
 .principal__logo {
     display: flex;
     align-self: flex-start;
-    height: 10vh;
+    height: 48px;
     margin: 2rem 8rem 2rem 5rem; 
     filter: drop-shadow(0 0 20px #00000069);
 }

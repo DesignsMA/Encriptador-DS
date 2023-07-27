@@ -52,5 +52,16 @@
 }
 
 
+@media screen and (max-width: 375px) { 
+.consola__boton:nth-child(2), .consola__boton:nth-child(3) {
+    width: calc(100% - 0.5rem);
+}
+
+.consola__boton:nth-child(2) {
+        margin-right: 0;
+        margin-bottom: 1rem;
+}
+
+}
 
 
