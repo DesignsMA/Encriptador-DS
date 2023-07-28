@@ -9,5 +9,6 @@
     @media screen and (max-width: 768px) { 
         .principal {
             flex-direction: column;
+            height: calc(100vh - 2rem);
         }
     }
