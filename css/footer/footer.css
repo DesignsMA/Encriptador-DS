@@ -5,3 +5,10 @@
         left: 25%;
     }
 }
+
+@media screen and (max-height: 380px) { 
+    .footer {
+        display: none;
+    }
+}
+
