@@ -35,4 +35,13 @@
     }
 }
 
+@media screen and (max-height: 500px) { 
+    .encriptador__input {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+        height: 5vh;
+    }
+}
+
+
 

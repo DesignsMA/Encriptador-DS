@@ -1,0 +1,7 @@
+@media screen and (max-height: 500px) { 
+    .footer {
+        position: absolute;
+        top: 0px;
+        left: 25%;
+    }
+}

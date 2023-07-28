@@ -25,9 +25,9 @@
     }
 }
 
-@media screen and (max-height: 500px) { 
+@media screen and (max-height: 360px) { 
     .respuesta {
-        height: 3rem;
+        margin: 0.5rem;
     }
 }
 
