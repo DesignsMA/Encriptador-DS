@@ -1,4 +1,4 @@
-@media screen and (max-height: 768px) { 
+@media screen and (max-height: 450px) { 
     .footer {
         position: absolute;
         top: 0px;
