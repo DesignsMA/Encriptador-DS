@@ -6,17 +6,4 @@
     }
     
 
-    @media screen and (max-width: 768px) { 
-        .principal {
-            flex-direction: column;
-            height: calc(100vh - 2rem);
-        }
-    }
-
-    @media screen and (max-width: 600px) { 
-        .principal {
-            flex-direction: column;
-            height: calc(100vh - 2rem);
-        }
-    }
 
