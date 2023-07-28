@@ -21,3 +21,18 @@
         height: 30vh;
     }
 }
+
+@media screen and (max-height: 800px) { 
+    .encriptador__input {
+        height: 15vh;
+    }
+}
+
+@media screen and (max-height: 650px) { 
+    .encriptador__input {
+        font-size: 1.5rem;
+        height: 10vh;
+    }
+}
+
+
